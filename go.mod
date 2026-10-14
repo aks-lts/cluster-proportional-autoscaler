@@ -36,9 +36,9 @@ require (
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/spf13/cobra v1.8.1 // indirect
 	github.com/x448/float16 v0.8.4 // indirect
-	golang.org/x/net v0.56.0 // indirect
+	golang.org/x/net v0.57.0 // indirect
 	golang.org/x/oauth2 v0.21.0 // indirect
-	golang.org/x/sys v0.46.0 // indirect
+	golang.org/x/sys v0.47.0 // indirect
 	golang.org/x/term v0.44.0 // indirect
 	golang.org/x/text v0.38.0 // indirect
 	golang.org/x/time v0.3.0 // indirect
@@ -58,7 +58,7 @@ replace golang.org/x/net => golang.org/x/net v0.56.0
 
 replace golang.org/x/sys => golang.org/x/sys v0.44.0
 
-replace golang.org/x/text => golang.org/x/text v0.39.0
+replace golang.org/x/text => golang.org/x/text v0.41.0
 
 replace github.com/golang/glog => github.com/golang/glog v1.2.4
 
