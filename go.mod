@@ -4,7 +4,7 @@ go 1.26.0
 
 require (
 	github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc
-	github.com/golang/glog v1.2.3
+	github.com/golang/glog v1.2.4
 	github.com/spf13/pflag v1.0.5
 	k8s.io/api v0.31.2
 	k8s.io/apimachinery v0.31.2
@@ -37,7 +37,7 @@ require (
 	github.com/spf13/cobra v1.8.1 // indirect
 	github.com/x448/float16 v0.8.4 // indirect
 	golang.org/x/net v0.58.0 // indirect
-	golang.org/x/oauth2 v0.21.0 // indirect
+	golang.org/x/oauth2 v0.27.0 // indirect
 	golang.org/x/sys v0.48.0 // indirect
 	golang.org/x/term v0.46.0 // indirect
 	golang.org/x/text v0.42.0 // indirect
@@ -59,9 +59,3 @@ replace golang.org/x/net => golang.org/x/net v0.60.0
 replace golang.org/x/sys => golang.org/x/sys v0.44.0
 
 replace golang.org/x/text => golang.org/x/text v0.41.0
-
-replace github.com/golang/glog => github.com/golang/glog v1.2.4
-
-replace golang.org/x/oauth2 => golang.org/x/oauth2 v0.27.0
-
-replace golang.org/x/term => golang.org/x/term v0.30.0
